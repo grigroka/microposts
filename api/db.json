@@ -24,6 +24,11 @@
       "title": "Post Five",
       "body": "This is post five",
       "id": 5
+    },
+    {
+      "title": "Post Six",
+      "body": "This is post six",
+      "id": 6
     }
   ]
 }
