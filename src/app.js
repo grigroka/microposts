@@ -14,6 +14,9 @@ document.querySelector('#posts').addEventListener('click', deletePost);
 // Listen for edit state
 document.querySelector('#posts').addEventListener('click', enableEdit);
 
+// Listen for cancel
+document.querySelector('.card-form').addEventListener('click', cancelEdit);
+
 // Get Posts
 function getPosts() {
   http
@@ -79,6 +82,15 @@ function enableEdit(e) {
 
     // Fill form with curent post
     ui.fillForm(data);
+  }
+
+  e.preventDefault();
+}
+
+// Cancel Edit state
+function cancelEdit(e) {
+  if (e.target.classList.contains('post-cancel')) {
+    ui.changeFormState('add');
   }
 
   e.preventDefault();
