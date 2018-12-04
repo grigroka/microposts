@@ -1,9 +1,9 @@
 {
   "posts": [
     {
-      "id": 2,
-      "title": "Post Two",
-      "body": "This is post two"
+      "title": "This is post 2",
+      "body": "This is post 2",
+      "id": 2
     },
     {
       "id": 3,
@@ -19,6 +19,11 @@
       "title": "Post Six",
       "body": "This is post six",
       "id": 6
+    },
+    {
+      "title": "Post One",
+      "body": "This is post one",
+      "id": 7
     }
   ]
 }
